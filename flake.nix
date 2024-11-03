@@ -23,7 +23,6 @@
             ]) [
               "active_hint"
               "autotile"
-              "autotile_behavior"
               "cursor_follows_focus"
               "descale_xwayland"
               "focus_follows_cursor"
