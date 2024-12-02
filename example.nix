@@ -36,7 +36,7 @@ in {
       Super."Return" = Actions.Spawn pkgs.alacritty;
       Super."o" = Actions.System "HomeFolder";
       Super.Shift."s" = Actions.System "Screenshot";
-    };
+    } ++ [{modifiers = ["Super"]; action = "Disable";}];
     background = { displays = { all = { source = "/example/img.png"; }; }; };
     panels = {
       "Bar" = {
